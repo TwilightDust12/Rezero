@@ -1,0 +1,127 @@
+<h2>Choose a Re:Zero Visual Theme Style</h2>
+<p class="subtitle">We will adapt the Komi-style presentation layout (a large vertical character with floating overlay cards) to the Re:Zero portal. Which visual theme style do you prefer?</p>
+
+<div class="options">
+  <div class="option" data-choice="a" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content">
+      <h3>Soft Dark Witch (Recommended)</h3>
+      <p>A refined slate-violet dark palette (<code>#16141c</code>) with frosted glassmorphism card overlays. Dynamic color highlights match the selected character's magic color. Preserves dark mode and reduces eye fatigue.</p>
+      <div class="pros-cons" style="margin-top: 10px;">
+        <div class="pros">
+          <ul>
+            <li>Very comfortable for eyes</li>
+            <li>Premium glassmorphic glow</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <ul>
+            <li>Lower ambient contrast</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="option" data-choice="b" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content">
+      <h3>Sanctuary Parchment</h3>
+      <p>A warm sepia and ink parchment background (<code>#faf7f0</code>) with thin charcoal border cards, matching the aesthetic of Echidna's ancient library books. High contrast, elegant, classical look.</p>
+      <div class="pros-cons" style="margin-top: 10px;">
+        <div class="pros">
+          <ul>
+            <li>Extremely high legibility</li>
+            <li>Authentic bookish feel</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <ul>
+            <li>Bright background in dark rooms</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="option" data-choice="c" onclick="toggleSelect(this)">
+    <div class="letter">C</div>
+    <div class="content">
+      <h3>Matias Glitch & Crimson</h3>
+      <p>A deep pitch-black background with neon crimson accents, CRT scanlines, and digital noise overlays, capturing the harsh, high-tension atmosphere of Subaru's Return by Death loops.</p>
+      <div class="pros-cons" style="margin-top: 10px;">
+        <div class="pros">
+          <ul>
+            <li>Very atmospheric and dramatic</li>
+            <li>Great for simulation focus</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <ul>
+            <li>Can cause visual fatigue over time</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr style="margin: 40px 0; border: 0; border-top: 1px solid rgba(255,255,255,0.1);" />
+
+<h3>Mockup Preview of the Layout</h3>
+<div class="mockup" style="max-width: 800px; margin: 0 auto; background: #16141c; border-radius: 12px; overflow: hidden; padding: 20px;">
+  <!-- Mockup of the page layout -->
+  <div style="display: flex; justify-content: space-between; border-bottom: 1px solid rgba(255,255,255,0.05); padding-bottom: 10px; font-family: monospace; font-size: 11px; color: #9c95a6;">
+    <div>🍔 menu</div>
+    <div style="display: flex; gap: 15px;">
+      <span>home</span>
+      <span>characters</span>
+      <span>death simulator</span>
+      <span>witch's tea party</span>
+    </div>
+    <div>settings</div>
+  </div>
+
+  <div style="position: relative; height: 450px; display: flex; align-items: center; justify-content: center; margin-top: 20px; overflow: hidden; border-radius: 8px; bg: #121017;">
+    <!-- Large centered character illustration placeholder -->
+    <div style="width: 250px; height: 100%; background: linear-gradient(180deg, rgba(178, 152, 236, 0.1) 0%, rgba(178, 152, 236, 0.3) 100%); border-radius: 8px; display: flex; align-items: center; justify-content: center; position: relative;">
+      <span style="font-family: serif; font-size: 24px; color: #b298ec; opacity: 0.8; font-weight: bold;">[ Character Artwork ]</span>
+    </div>
+
+    <!-- Floating Cards -->
+    <!-- Top Right: Name Card -->
+    <div style="position: absolute; top: 20px; right: 20px; background: rgba(25, 22, 33, 0.85); border: 1px solid rgba(255,255,255,0.05); border-radius: 8px; padding: 12px 20px; backdrop-filter: blur(8px); text-align: left; max-width: 200px;">
+      <span style="background: rgba(178, 152, 236, 0.15); color: #b298ec; border: 1px solid rgba(178, 152, 236, 0.3); font-size: 8px; padding: 1px 4px; border-radius: 2px; font-family: monospace;">THE WITCH OF GREED</span>
+      <h4 style="font-family: serif; font-size: 20px; margin: 4px 0 0 0; color: #e2e8f0; letter-spacing: 1px;">ECHIDNA</h4>
+    </div>
+
+    <!-- Middle Left: Quotes Card -->
+    <div style="position: absolute; top: 120px; left: 10px; background: rgba(25, 22, 33, 0.85); border: 1px solid rgba(255,255,255,0.05); border-radius: 8px; padding: 12px; backdrop-filter: blur(8px); text-align: left; max-width: 220px; font-family: monospace; font-size: 10px;">
+      <div style="color: #b298ec; font-weight: bold; margin-bottom: 4px;">▶ Quotes / Voice Lines</div>
+      <div style="color: #e2e8f0; font-style: italic; background: rgba(0,0,0,0.3); padding: 8px; border-radius: 4px; margin-bottom: 6px;">"Won't you have a cup of tea? It's freshly brewed..."</div>
+      <div style="display: flex; gap: 4px; justify-content: flex-end;">
+        <span style="width: 14px; height: 14px; border-radius: 50%; background: #b298ec; color: black; display: flex; align-items: center; justify-content: center; font-size: 8px; font-weight: bold;">1</span>
+        <span style="width: 14px; height: 14px; border-radius: 50%; border: 1px solid #b298ec; color: #b298ec; display: flex; align-items: center; justify-content: center; font-size: 8px;">2</span>
+      </div>
+    </div>
+
+    <!-- Right Middle: Abilities Card -->
+    <div style="position: absolute; top: 130px; right: 10px; background: rgba(25, 22, 33, 0.85); border: 1px solid rgba(255,255,255,0.05); border-radius: 8px; padding: 12px; backdrop-filter: blur(8px); text-align: left; max-width: 200px; font-size: 10px;">
+      <div style="font-family: monospace; color: #b298ec; margin-bottom: 4px; font-size: 9px; uppercase">Signature Ability</div>
+      <h5 style="font-weight: bold; color: #e2e8f0; margin: 0 0 2px 0;">Witch's Tea Party</h5>
+      <p style="color: #9c95a6; margin: 0; line-height: 1.3;">A specialized realm created by Echidna's authority to hold dialogue and trade knowledge.</p>
+    </div>
+
+    <!-- Bottom Right: Description/Action Card -->
+    <div style="position: absolute; bottom: 20px; right: 20px; background: rgba(25, 22, 33, 0.85); border: 1px solid rgba(255,255,255,0.05); border-radius: 8px; padding: 12px; backdrop-filter: blur(8px); text-align: left; max-width: 240px; font-size: 11px;">
+      <p style="color: #9c95a6; margin: 0 0 10px 0; line-height: 1.3;">She invites Subaru to her tea party to observe his Return by Death loops, seeking to satisfy her insatiable greed for knowledge.</p>
+      <button style="width: 100%; background: #b298ec; color: black; border: 0; padding: 6px; border-radius: 4px; font-family: monospace; font-size: 10px; font-weight: bold; cursor: pointer;">SIGN THE CONTRACT</button>
+    </div>
+
+    <!-- Bottom Left: Location Card -->
+    <div style="position: absolute; bottom: 20px; left: 20px; background: rgba(25, 22, 33, 0.85); border: 1px solid rgba(255,255,255,0.05); border-radius: 8px; padding: 8px 12px; backdrop-filter: blur(8px); text-align: left;">
+      <span style="font-size: 16px; font-weight: bold; color: #e2e8f0; font-family: sans-serif;">16°</span>
+      <div style="font-family: monospace; font-size: 8px; color: #9c95a6; uppercase">The Sanctuary</div>
+    </div>
+  </div>
+</div>

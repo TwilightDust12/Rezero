@@ -1,0 +1,77 @@
+<h2>Choose the Website Layout & Architecture Approach</h2>
+<p class="subtitle">Open http://localhost:55856 in your browser to view this interactive comparison.</p>
+
+<div class="options">
+  <div class="option" data-choice="spa" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content">
+      <h3>Single-Page Portal (Recommended)</h3>
+      <p>A seamless, highly immersive single-page application with scroll-triggered animations, continuous dark ambient effects, and integrated overlay panels for the interactive simulations.</p>
+    </div>
+  </div>
+
+  <div class="option" data-choice="multipage" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content">
+      <h3>Multi-Page Glitch Archive</h3>
+      <p>A retro-themed archive with separate HTML pages for each section (Home, Characters, Simulation, Tea Party) linked by a shared navigation menu, using CRT/glitch transition styling.</p>
+    </div>
+  </div>
+
+  <div class="option" data-choice="tarot" onclick="toggleSelect(this)">
+    <div class="letter">C</div>
+    <div class="content">
+      <h3>Tarot/Card Dashboard</h3>
+      <p>A clean grid layout focused on mysterious tarot cards representing characters and features. Clicking a card flips or expands it into a detailed modal view.</p>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h3>Trade-offs & Analysis</h3>
+  <div class="split">
+    <div class="mockup">
+      <div class="mockup-header">Single-Page Portal Pros & Cons</div>
+      <div class="mockup-body">
+        <div class="pros-cons">
+          <div class="pros">
+            <h4>Pros</h4>
+            <ul>
+              <li>Immersive ambient audio/visual continuity (no page reloads)</li>
+              <li>Smooth glitch transition effects between sections</li>
+              <li>Feels like a premium, modern gaming portal</li>
+            </ul>
+          </div>
+          <div class="cons">
+            <h4>Cons</h4>
+            <ul>
+              <li>Single large file for layout (requires structured JS component rendering)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="mockup">
+      <div class="mockup-header">Multi-Page & Tarot Pros & Cons</div>
+      <div class="mockup-body">
+        <div class="pros-cons">
+          <div class="pros">
+            <h4>Pros</h4>
+            <ul>
+              <li>Modular, easy to expand with more pages</li>
+              <li>Tarot style is highly thematic and visually neat</li>
+            </ul>
+          </div>
+          <div class="cons">
+            <h4>Cons</h4>
+            <ul>
+              <li>Multi-page breaks glitch animations during page loads</li>
+              <li>Tarot layout is less narrative-focused</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
