@@ -7,8 +7,8 @@
 ---
 
 **Project:** Re:Zero Portal
-**Generated:** 2026-06-11 20:34:28
-**Category:** Childcare/Daycare
+**Generated:** 2026-06-17 01:01:53
+**Category:** Gaming
 
 ---
 
@@ -153,13 +153,13 @@
 
 ## Style Guidelines
 
-**Style:** Vibrant & Block-based
+**Style:** Retro-Futurism
 
-**Keywords:** Bold, energetic, playful, block layout, geometric shapes, high color contrast, duotone, modern, energetic
+**Keywords:** Vintage sci-fi, 80s aesthetic, neon glow, geometric patterns, CRT scanlines, pixel art, cyberpunk, synthwave
 
-**Best For:** Startups, creative agencies, gaming, social media, youth-focused, entertainment, consumer
+**Best For:** Gaming, entertainment, music platforms, tech brands, artistic projects, nostalgic, cyberpunk
 
-**Key Effects:** Large sections (48px+ gaps), animated patterns, bold hover (color shift), scroll-snap, large type (32px+), 200-300ms
+**Key Effects:** CRT scanlines (::before overlay), neon glow (text-shadow+box-shadow), glitch effects (skew/offset keyframes)
 
 ### Page Pattern
 
@@ -173,8 +173,8 @@
 
 ## Anti-Patterns (Do NOT Use)
 
-- ❌ Generic design
-- ❌ Hidden safety info
+- ❌ Minimalist design
+- ❌ Static assets
 
 ### Additional Forbidden Patterns
 
